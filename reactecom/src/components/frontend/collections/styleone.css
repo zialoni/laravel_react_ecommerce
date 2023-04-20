@@ -1,0 +1,188 @@
+.intro {
+    
+    height:70px;
+    width: 305px;
+    padding:6px;
+    box-sizing: border-box;
+    position:absolute;
+    background: #e8f0fe;
+    color:Black;
+    top:305px;
+  
+}
+
+h1{
+    margin:10px;
+    font-size: 40px;
+}
+
+p{
+    font-size:20px;
+    margin:20px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card:hover .intro{
+    height:200px;
+    top:200px;
+    background:#002a61;
+    color:white;
+}
+.card:hover p{
+    opacity:0.8;
+    visibility: visible;
+}
+
+.product-name h3{
+    font-size: 20px;
+    font-weight: 400px;
+    margin-top: 5px;
+}
+
+.card .product-price{
+    float: right;
+    font-size: 16px;
+} 
+
+.desc_text{
+    color:black;
+    font-size:18px;
+}
+
+.nav-item .glow span{
+
+     animation:animate 1s linear infinite;
+     font-weight: 700;
+}
+.nav-item .glow span:nth-child(1)
+{
+    animation-delay: 0s;
+}
+.nav-item .glow span:nth-child(2)
+{
+    animation-delay: 0.2s;
+}
+.nav-item .glow span:nth-child(3)
+{
+    animation-delay: 0.4s;
+}
+.nav-item .glow span:nth-child(4)
+{
+    animation-delay: 0.6s;
+}
+@keyframes animate 
+{
+    0%
+    {
+        color: #333;
+        text-shadow: none;
+    }
+    100%
+    {
+        color: #f3f2f7;
+      
+                 
+    }
+    
+}
+
+.checked {
+    color:orange;
+}
+
+
+.homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+ 
+  
+
+}
+
+.homepage h1 {
+    border: 3px solid gray;
+    border-radius: 400px;
+    padding:3px 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color:white;
+    background-color:#002a61;   
+
+}
+.homepage h1:hover {
+    background-color:#e8f0fe;
+    color:black;
+}
+
+
+.login-form {
+  
+    margin: 50px auto;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #dae5f0;
+    padding: 30px;
+    border-radius:10px;
+}
+.login-form form input[type="email"] {
+    background-color:#e8f0fe!important;
+    color:#002a61;
+}
+.login-form form input[type="password"] {
+    background-color:#e8f0fe!important;
+    color:#002a61;
+}
+.login-form form input[type="text"] {
+    background-color:#e8f0fe!important;
+    color:#002a61;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .butn {
+    min-height: 38px;
+    border-radius: 2px;
+   
+}
+.butn {       
+    width:100%; 
+    font-size: 20px;
+    font-weight: bold;
+    background-color:#002a61;
+    color:white;
+    padding:8px;
+    text-decoration: none;
+   
+}
+
+.btnn {
+   
+    font-size: 20px;
+    font-weight: bold;
+    background-color:#002a61;
+    color:white;
+    padding:8px;
+    text-decoration: none;
+    display: inline; 
+    border-radius:4px;
+}
+
+nav .navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+    font-size: 18px;
+  
+    }
+.navbar-nav .nav-link:hover{
+       
+        color:black;
+       
+    }
